@@ -1,0 +1,11 @@
+## virtualenv
+venv/
+
+## PyCharm
+.idea
+
+## Jupyter Notebook Checkpoints
+notebooks/.ipynb_checkpoints/
+
+## temporary workspace
+tmp/
