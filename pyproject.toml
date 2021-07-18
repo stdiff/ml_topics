@@ -6,20 +6,23 @@ authors = ["Hironori Sakai <crescent.lab@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "~3.9"
 adhoc = {url = "https://github.com/stdiff/adhoc/archive/v0.4.zip"}
 click = "7.1.2"
 tqdm = "^4.59.0"
-torch = {version = "^1.8.1", python = "^3.7", platform = "linux"}
-torchvision = {version = "^0.9.1", python = "^3.7", platform = "linux"}
-torchaudio = {version = "^0.8.1", python = "^3.7", platform = "linux"}
+torch = {version = "^1.8.1", python = "^3.9", platform = "linux"}
+torchvision = {version = "^0.9.1", python = "^3.9", platform = "linux"}
+torchaudio = {version = "^0.8.1", python = "^3.9", platform = "linux"}
 pytorch-lightning = "^1.2.7"
 ipywidgets = "^7.6.3"
 pandas = "1.1.5"
 scikit-learn = "0.24.2"
+sagemaker = "^2.44.0"
+boto3 = "^1.17.86"
+boto3-stubs = "^1.17.86"
+ray = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
-ray = "1.1.0"
 jupyterlab = "3.0.11"
 jedi = "0.18"
 jupytext = "^1.10.2"
